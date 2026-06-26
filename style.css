@@ -1,94 +1,54 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Cairo',sans-serif;
-}
-
 body{
-background:linear-gradient(-45deg,#0f172a,#1e293b,#1d4ed8,#0f172a);
-background-size:400% 400%;
-animation:bg 15s ease infinite;
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
+    background:#243b74;
+    font-family:Arial;
+    color:white;
+    text-align:center;
 }
 
-@keyframes bg{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
+.container{
+    width:90%;
+    max-width:400px;
+    margin:auto;
+    padding:20px;
 }
 
-.card{
-width:380px;
-padding:30px;
-border-radius:25px;
-background:rgba(255,255,255,.08);
-backdrop-filter:blur(20px);
-box-shadow:0 10px 40px rgba(0,0,0,.5);
-text-align:center;
-color:white;
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid #00ffff;
+    margin:20px 0;
 }
 
-.avatar img{
-width:120px;
-height:120px;
-border-radius:50%;
-border:4px solid cyan;
-box-shadow:0 0 20px cyan;
-margin-bottom:20px;
+h1{
+    font-size:45px;
+    margin:10px 0;
 }
 
-.buttons a{
-display:block;
-padding:15px;
-margin:10px 0;
-border-radius:15px;
-text-decoration:none;
-font-weight:bold;
-color:white;
-transition:.3s;
+.welcome{
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:30px;
 }
 
-.buttons a:hover{
-transform:scale(1.05);
+.btn{
+    display:block;
+    padding:20px;
+    margin:15px 0;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+    color:white;
 }
 
-.instagram{
-background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
-}
+.instagram{background:linear-gradient(45deg,#ff9900,#ff00aa);}
+.tiktok{background:#000;}
+.telegram{background:#0099dd;}
+.snapchat{background:#ffee00;color:black;}
+.github{background:#333;}
 
-.tiktok{
-background:#111;
-}
-
-.telegram{
-background:#0088cc;
-}
-
-.snapchat{
-background:#fffc00;
-color:black!important;
-}
-
-.github{
-background:#333;
-}
-
-.project{
-background:rgba(255,255,255,.1);
-padding:10px;
-margin:10px;
-border-radius:10px;
-}
-.footer{
-    margin-top: 30px;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    opacity: 0.8;
-}
-    font-size: 14px;
+footer{
+    margin-top:40px;
+    opacity:.7;
 }
