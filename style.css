@@ -1,54 +1,47 @@
-body{
-    background:#243b74;
-    font-family:Arial;
-    color:white;
-    text-align:center;
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-.container{
-    width:90%;
-    max-width:400px;
-    margin:auto;
-    padding:20px;
+.container {
+    text-align: center;
+    margin-top: 50px;
 }
 
-.profile{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    border:5px solid #00ffff;
-    margin:20px 0;
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
 }
 
-h1{
-    font-size:45px;
-    margin:10px 0;
+h1 {
+    margin-top: 20px;
 }
 
-.welcome{
-    font-size:22px;
-    line-height:1.8;
-    margin-bottom:30px;
+p {
+    color: #cbd5e1;
 }
 
-.btn{
-    display:block;
-    padding:20px;
-    margin:15px 0;
-    border-radius:20px;
-    text-decoration:none;
-    font-size:24px;
-    font-weight:bold;
-    color:white;
+.links {
+    margin-top: 30px;
 }
 
-.instagram{background:linear-gradient(45deg,#ff9900,#ff00aa);}
-.tiktok{background:#000;}
-.telegram{background:#0099dd;}
-.snapchat{background:#ffee00;color:black;}
-.github{background:#333;}
+.links a {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
 
-footer{
-    margin-top:40px;
-    opacity:.7;
+.links a:hover {
+    background: #1d4ed8;
 }
